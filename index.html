@@ -1,0 +1,114 @@
+<html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Agendamento de consultas</title>
+        <link rel="stylesheet" href="css/formstyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body >
+       <header>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html"><i class="fa fa-fw fa-home"></i>Inicio</a></li>
+                <li><a href="contato.html" > <i class="fa fa-fw fa-envelope"></i>Contato</a></li>
+                <li><a href="sobre.html"> <i class="fa fa-fw fa-user"></i>Sobre</a></li>
+            </ul>
+        </nav>
+           <h1>
+               Agendamento de Exames
+           </h1>
+           <p>
+            
+        </p>
+       </header>
+       <form action= "mailto:aaaa@aaaa.com.br" method="POST">  
+        <section>    
+        <div id="nome">
+            <p>
+                <label for="fnome">Nome do paciente</label>
+                <input type="text" name="fnome" id="fnome"placeholder="Digite seu nome">
+            </p>
+        </div>
+        <div id = "email">
+            <p>
+                <label for="femail">E-Mail </label>
+                <input type="email" id="femail" name="femail" size="50" placeholder ="Ex:aaaaaa@gmail.com">
+            </p>
+
+        </div>
+        <div id = "cpf">
+            <label for="fcpf">CPF</label>
+            <input type="text" maxlength = "12" value name="fcpf" id="fcpf" placeholder="Ex.: 000.000.000-00">
+        </div>
+
+
+            
+
+        </div>
+        <div id = "idade">
+            
+           <br> <label for="fidade">Idade</label>
+            <input type="number" name="fidade" id="fidade" placeholder="Digite sua idade"></input> 
+      </div>
+        <div id = "sexo">
+            <p>Sexo:
+                <br><input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label><br>
+               <input type="radio" name="radsex" id="fem">
+               <label for="fem">Feminino</label><br>
+               <input type="radio" name="radsex" id="outro">
+               <label for="outro">Outro</label>
+            </p>
+    
+        </div>     
+      
+      <div id = exames>
+          <p>Qual exame deseja realizar?</p>
+        <select id="fexames">
+            <option>Hemograma</option>
+            <option>Glicemia em jejum</option>
+            <option>Colesterol e triglicerídios</option>
+            <option>Ureia e creatinina</option>
+            <option>Tgo(AST) e TGP(ALT)</option>
+            <option>TSH e T4 livre </option>
+           <option>Ácido úrico</option>
+           <option>Exame de urina</option>
+           <option>Eletrocardiograma</option>
+        </select>
+      </div>
+    <div id = "melhordia">
+        <p>
+            Escolha o melhor dia para você:
+        </p>
+        <label for="fmelhordia"></label>
+        <input type="checkbox" name="fmelhordia" id="fmelhordia"  > Segunda-feira
+        <label for="fmelhordia1"></label><br><br>
+        <input type="checkbox" name="fmelhordia1" id="fmelhordia1" > Terça-feira
+        <label for="fmelhordia2"></label><br><br>
+        <input type="checkbox" name="fmelhordia2" id="fmelhordia2" > Quarta-feira
+        <label for="fmelhordia3"></label><br><br>
+        <input type="checkbox" name="fmelhordia3" id="fmelhordia3" > Quinta-feira
+        <label for="fmelhordia4"></label><br><br>
+        <input type="checkbox" name="fmelhordia4" id="fmelhordia4" > Sexta-feira
+    </div>
+    <div id = observaçoes>
+        <p>
+            Obersevações
+        </p>
+         <textarea name="observacao" id="observacao"  rows="10" placeholder="Nos conte mais..."></textarea>
+         
+    </div>
+    <div id = "enviar">
+        <input type="submit" value="Enviar" onclick="enviar()">
+    </div>
+           </div>      
+       </form>
+     </section>
+    <script src="js/script.js"></script>
+  
+    </body>
+   
+</html>

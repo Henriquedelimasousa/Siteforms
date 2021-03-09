@@ -1,0 +1,109 @@
+
+header  {
+    margin-top: 100px;
+    text-align: center;
+    font: normal 15pt Arial;    
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(5, 5, 5);
+    text-shadow: 2px 2px rgb(255, 255, 255);
+     
+}
+ p {
+     font-size: 20px;
+ }
+
+
+#menu ul  {
+    
+    padding:1px;
+    margin:1px;
+    background-color:#f0ebeb;
+    list-style:none;
+    float:left;
+    width: 100%;
+    
+}
+#menu ul li {   display: inline;
+padding: 35px; }
+
+#menu ul li a {
+    padding: 20px 10px;
+    width: auto;
+    display: inline-block;
+    background-color:#EDEDED;
+    color: rgb(75, 66, 66);
+    text-decoration: none;
+   
+}
+
+#menu ul li a:hover {
+    background-color:#c6dde0;
+    color: #131212;
+    border-bottom:3px solid #0e0d0d;
+}
+body{  
+    
+     background-image: url("../img/pexels-negative-space-48604.jpg"); 
+     background-color: rgb(158, 192, 236);
+     background-repeat: repeat-y;
+     background-size: 100%;
+     position: relative;
+     
+}
+
+section {
+position: relative;
+border-radius: 10px;    
+padding:30px;
+width: 550px;
+margin:auto;
+background-color: rgba(255, 255, 255, 0.959);
+box-shadow: 3px 3px 30px ;
+font-size: 15px;
+
+}
+
+input#fidade,#fcpf,#fnome,#fexames,#femail,#observacao
+{
+    border-radius: 5px;
+
+}
+input{
+    font-size: 15px;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    border:ridge;
+    
+   
+}
+#sexo label:hover{
+cursor: pointer;
+}
+select#fexames{
+    width: 200;
+    height:25px;
+    font-size: 15px;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+  }
+textarea {
+  
+    width: 250px;
+    height: 100px;
+    
+}
+
+#idade,#cpf {
+    font-size: 20px;
+}
+ 
+#enviar{
+    margin-top: 10px;
+    
+}
